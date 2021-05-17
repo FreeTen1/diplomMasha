@@ -19,7 +19,6 @@ from pmdarima.arima.utils import ndiffs
 import jhtalib as jhta
 from sklearn.preprocessing import StandardScaler
 from scipy.spatial import distance
-from nltk.cluster.kmeans import KMeansClusterer
 
 
 @st.cache(suppress_st_warning=True,allow_output_mutation=True)
